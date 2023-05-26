@@ -15,7 +15,7 @@ of the final energy sectors
 - industry.
 
 
-## Installation
+## Downloading the Repo to Your Machine
 
 This is an updated version for non-admin windows user via the windows console or ide consoles like vs-code.
 
@@ -29,6 +29,9 @@ or download and extract the zip folder:
 
     https://github.com/tZ3ma/dm_regio_debug/archive/refs/heads/main.zip
 
+
+## Setting up the Virtualenvironment
+
 Create a new virtualenvironment using your default python interpreter. This was tested with 3.10.11:
 
 ```bash
@@ -36,6 +39,8 @@ $ python -m venv demand_regio ALIAS_FOR_YOUR_FOLDER_LOCATION
 ```
 
 `ALIAS_FOR_YOUR_FOLDER_LOCATION` could thereby be something like `~\Documents\python_venvs` or if you want to have a folder created in your current working directory.
+
+## Installation Using pip
 
 Since script activation is likely prohibited on non-admin windows users, you have to manually state the new python interpretor for installing the requirements:
 
