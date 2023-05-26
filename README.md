@@ -22,12 +22,12 @@ This is an updated version for non-admin windows user via the windows console or
 First, get the contents of this repo on your machine. To do that you can either use git for windows:
 
 ```bash
-$ git clone https://github.com/tZ3ma/dm_regio_debug.git
+$ git clone https://github.com/tZ3ma/demand_regio.git
 ```
 
 or download and extract the zip folder:
 
-    https://github.com/tZ3ma/dm_regio_debug/archive/refs/heads/main.zip
+    https://github.com/tZ3ma/demand_regio/archive/refs/heads/main.zip
 
 
 ## Setting up the Virtualenvironment
