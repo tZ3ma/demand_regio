@@ -19,6 +19,16 @@ of the final energy sectors
 
 This is an updated version for non-admin windows user via the windows console or ide consoles like vs-code.
 
+First, get the contents of this repo on your machine. To do that you can either use git for windows:
+
+```bash
+$ git clone https://github.com/tZ3ma/dm_regio_debug.git
+```
+
+or download and extract the zip folder:
+
+    https://github.com/tZ3ma/dm_regio_debug/archive/refs/heads/main.zip
+
 Create a new virtualenvironment using your default python interpreter. This was tested with 3.10.11:
 
 ```bash
