@@ -17,28 +17,47 @@ of the final energy sectors
 
 ## Installation
 
-Before we really start, please install `conda` through the latest [Anaconda package](https://www.anaconda.com/distribution/) or via [miniconda](https://docs.conda.io/en/latest/miniconda.html). After successfully installing `conda`, open the **Anaconda Powershell Prompt**.  
-For experts: You can also open a bash shell (Linux) or command prompt (Windows), but then make sure that your local environment variable `PATH` points to your anaconda installation directory.
+This is an updated version for non-admin windows user via the windows console or ide consoles like vs-code.
 
-Now, in the root folder of the project create an environment to work in that will be called `disaggregator` via
-
-```bash
-$ conda env create -f environment.yml
-```
-
-which installs all required packages. Then activate the environment
+Create a new virtualenvironment using your default python interpreter. This was tested with 3.10.11:
 
 ```bash
-$ conda activate disaggregator
+$ python -m venv demand_regio ALIAS_FOR_YOUR_FOLDER_LOCATION
 ```
+
+`ALIAS_FOR_YOUR_FOLDER_LOCATION` could thereby be something like `~\Documents\python_venvs` or if you want to have a folder created in your current working directory.
+
+Since script activation is likely prohibited on non-admin windows users, you have to manually state the new python interpretor for installing the requirements:
+
+```bash
+$ PATH_TO_MY_INTERPRETER -m pip install -r requirements.txt
+```
+
+This will use the newly created venv interpreter to install all requirements using pip, which is reading the requirements.txt file.
+
+On my machine this would look like:
+
+```bash
+$ ~\Code\Virtualenvironments\demand_regio\Scripts\python.exe -m pip install -r requirements.txt
+```
+which installs all required packages. 
 
 ## How to start
 
+Since we can activate our virtualenv using bash, we start the correct jupyter notebook kernel by using:
 Once the environment is activated, you can start a Jupyter Notebook from there
 
 ```bash
-(disaggregator) $ jupyter notebook
+$ PATH_TO_MY_INTERPRETER -m jupyter notebook
 ```
+
+so in my case:
+
+```bash
+$ ~\Code\Virtualenvironments\demand_regio\Scripts\python.exe -m jupyter notebook
+```
+
+From here on, the orignal documentation can be followed as usual.
 
 As soon as the Jupyter Notebook opens in your browser, click on the `01_Demo_data-and-config.ipynb` file to start with a demonstration:
 
