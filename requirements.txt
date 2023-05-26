@@ -1,0 +1,18 @@
+numpy
+pandas
+tables
+pyyaml
+requests
+
+geopandas
+descartes
+xarray
+xlrd
+
+matplotlib
+holidays
+
+# Jupyter Environment
+jupyterlab
+notebook
+ipython
