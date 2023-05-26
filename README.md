@@ -38,7 +38,7 @@ Create a new virtualenvironment using your default python interpreter. This was 
 $ python -m venv demand_regio ALIAS_FOR_YOUR_FOLDER_LOCATION
 ```
 
-`ALIAS_FOR_YOUR_FOLDER_LOCATION` could thereby be something like `~\Documents\python_venvs` or if you want to have a folder created in your current working directory.
+`ALIAS_FOR_YOUR_FOLDER_LOCATION` could thereby be something like `~\Documents\python_venvs` or if you want to have a folder created in your current working directory you can just ommit it entirely.
 
 ## Installation Using pip
 
